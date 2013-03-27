@@ -1,7 +1,7 @@
 % This file was created with JabRef 2.7b.
 % Encoding: UTF-8
 
-@ARTICLE{,
+@ARTICLE{Endicott07,
   author = {B. Endicott-Popovsky and others},
   title = {A Theoretical Framework for Organizational 
 	
@@ -24,6 +24,15 @@
 	its implementation has yet to be realized beyond individual tools.},
   owner = {mavi},
   timestamp = {2013.03.23}
+}
+
+@TECHREPORT{Fahl13,
+  author = {S. Fahl and others},
+  title = {Hey, You, Get Off of My Clipboard},
+  institution = {Leibniz University of Hannover},
+  year = {2013},
+  owner = {mavi},
+  timestamp = {2013.03.27}
 }
 
 @TECHREPORT{Stewin12,
