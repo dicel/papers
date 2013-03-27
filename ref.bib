@@ -9,7 +9,8 @@
   journal = {JOURNAL OF COMPUTERS},
   year = {2007},
   volume = {2},
-  abstract = {Evaluates the radiness of networks for gaining forensic evidence to
+  owner = {mavi},
+  review = {Evaluates the radiness of networks for gaining forensic evidence to
 	pursue intruders. Therefore two real world cases are described. It
 	argues that most networks don't allow by default to gain relevant
 	forensic evidence without causing significant costs or loss of operational
@@ -22,7 +23,6 @@
 	capture forensic evidence beyond their current capabilities. The
 	idea has been endorsed within the forensics research community, but
 	its implementation has yet to be realized beyond individual tools.},
-  owner = {mavi},
   timestamp = {2013.03.23}
 }
 
@@ -32,6 +32,43 @@
   institution = {Leibniz University of Hannover},
   year = {2013},
   owner = {mavi},
+  review = {Die Idee ist die Implementierung einer App die auf einen Call-Back
+	des Clipboards lauscht, um dann zu schauen ob die gerade aktive App
+	ein Passwort-Manager ist. Das geschieht über die PID die sich auf
+	die Google-App-ID abbilden lässt. Danach schauen sie welche a) App
+	als nächstes aktiv wird oder b) falls es ein Browser ist, welche
+	TCP Sockets offen sind.
+	
+	Ja, gut. Es ist jetzt wenig überraschend das sowas funktioniert. Auch
+	wenn das Android SDK sogar eine extra Schnittstelle bietet ist es
+	klar, das alle Daten die im Speicher liegen auch theoretisch Abgegriffen
+	werden können.
+	
+	Weiterhin kann auch nicht genau den Vorteil von Desktop-Lösungen erkennen,
+	die native APIs verwenden (vermutlich meinen sie Browser nativ).
+	Das Problem bleibt letztlich das Gleiche. Alles was irgendwann mal
+	im Speicher landet, kann auch von Malware abgeriffen werden. Ob es
+	wirklich WinAPI-Methode zur besseren Integration von Passwörtern
+	gibt weiß ich nicht, müsste man wohl mal mit Rene sprechen.
+	
+	
+	Sie beschwören immer wieder das sie für ihre gesamten Aktionen keine
+	Permissions benötigen. Naja gut, wie viele Paper in dem Bereich ist
+	der vermeintliche Einbruchsweg der Play Store. Ich bin nicht sicher
+	wie groß das Risiko in der Praxis ist.
+	
+	
+	Beim Ausnutzen einer Browserlücke ist immer noch die Sandbox zu überwinden.
+	Root Rechte sind dann auch nicht mehr weit.
+	
+	
+	Dem folgend würde ich die praktische Sicherheit ihrer Lösung (Softkeyboard)
+	nicht höher einschätzen als Copy & Paste zu benutzen. Als Root kommt
+	man auch an ihren Speicher.
+	
+	
+	Für eine genauere Analyse müsste man sie aber deren App mal genauer
+	anschauen.},
   timestamp = {2013.03.27}
 }
 
