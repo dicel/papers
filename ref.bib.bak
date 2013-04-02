@@ -1,6 +1,18 @@
 % This file was created with JabRef 2.7b.
 % Encoding: UTF-8
 
+@ARTICLE{dupuis11,
+  author = {M. Dupuis and others},
+  title = {Top-down mandates and the need for organizational governance, risk
+	management, and compliance in China: A discussion},
+  journal = {China-USA Business Review},
+  year = {2011},
+  volume = {10},
+  pages = {319-335},
+  owner = {mavi},
+  timestamp = {2013.04.01}
+}
+
 @ARTICLE{endicott07,
   author = {B. Endicott-Popovsky and others},
   title = {A Theoretical Framework for Organizational 
@@ -9,6 +21,7 @@
   journal = {JOURNAL OF COMPUTERS},
   year = {2007},
   volume = {2},
+  pages = {5-11},
   owner = {mavi},
   review = {Evaluates the radiness of networks for gaining forensic evidence to
 	pursue intruders. Therefore two real world cases are described. It
