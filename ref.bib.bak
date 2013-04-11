@@ -39,6 +39,23 @@
   timestamp = {2013.04.01}
 }
 
+@INPROCEEDINGS{Egners12,
+  author = {A. Egners and others},
+  title = {Messing with Android's Permission Model},
+  booktitle = {2012 IEEE 11th International Conference on Trust, Security and Privacy
+	in Computing and Communications},
+  year = {2012},
+  pages = {505-514},
+  organization = {RWTH Aachen University},
+  owner = {mavi},
+  review = {Good paper on a collection of attacks which lead to a full device
+	access scenario. The part about bidirectional communication with
+	the Internet without permission is of special interest. It has been
+	introduced by this paper. Quite interesting is the disribtion of
+	the zimperlich rooting exploit.},
+  timestamp = {2013.04.10}
+}
+
 @ARTICLE{endicott07,
   author = {B. Endicott-Popovsky and others},
   title = {A Theoretical Framework for Organizational 
