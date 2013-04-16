@@ -56,6 +56,27 @@
   timestamp = {2013.04.10}
 }
 
+@INPROCEEDINGS{endicott06,
+  author = {B. Endicott-Popovsky and D. Frincke},
+  title = {Adding the Fourth "R": A Systems Approach to Solving the Hacker's
+	Arms Race},
+  booktitle = {Proceedings of the 2006 Symposium 39th Hawaii International Conference
+	on System Sciences},
+  year = {2006},
+  owner = {mavi},
+  review = {Describing the arms race between hackers and victims as a stable system
+	to identify an overcome. Suggesting the equation f which gives the
+	hackers motivation: M=f[P(v) - (c1+c2)] After evaluationg all parameters
+	it seems to be most efficient to increase C2 (consequences), since
+	there are almost no consequences for hackers yet. That can be done
+	by adding a fourth R to the 3R's model: Resistence, Recognition,
+	Recovery + Redress. This changes the aim of what should happen after
+	an incident. Beside recovering the system and applying patches it
+	is important to first of all gather legal evidences and finally to
+	prosecute the hackers.},
+  timestamp = {2013.04.16}
+}
+
 @ARTICLE{endicott07,
   author = {B. Endicott-Popovsky and others},
   title = {A Theoretical Framework for Organizational 
@@ -156,6 +177,17 @@
 	on phsycologie. Gives some examples. The solution is the awareness
 	of the stuff in several different manners.},
   timestamp = {2013.03.27}
+}
+
+@ARTICLE{Rivest78,
+  author = {R. Rivest and others},
+  title = {A Method for Obtaining Digital Signatures and Public-Key Cryptosystems},
+  journal = {Communications of ACM},
+  year = {1978},
+  volume = {21},
+  pages = {120-126},
+  owner = {mavi},
+  timestamp = {2013.04.16}
 }
 
 @TECHREPORT{stewin12,
